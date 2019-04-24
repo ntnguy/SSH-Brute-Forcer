@@ -260,8 +260,8 @@ class SSHBruteForce():
 		    #Util.appendLineToFile("TargetIp: {}" .format(connection.targetIp, self.outputFileName))
 		    #Util.appendLineToFile("Username: {} ".format(connection.username, self.outputFileName))
 		    #Util.appendLineToFile("Password: {} ".format(connection.password, self.outputFileName))
-		    Util.appendLineToFile("TargetIp: {} ".format(connection.targetIp), self.outputFileName)
-		    Util.appendLineToFile("Username: {} ".format(connection.username), self.outputFileName)
+                    Util.appendLineToFile("TargetIp: {} ".format(connection.targetIp), self.outputFileName)
+                    Util.appendLineToFile("Username: {} ".format(connection.username), self.outputFileName)
                     Util.appendLineToFile("Password: {} ".format(connection.password), self.outputFileName)
 
                 if self.singleMode:
