@@ -167,7 +167,7 @@ class SSHBruteForce():
 
         if self.outputFileName is not None:
             Util.appendLineToFile("{}".format(self.info), self.outputFileName)
-	    if self.singleMode:
+            if self.singleMode:
                 Util.appendLineToFile("Brute Forcing {} ".format(self.targetIp, self.outputFileName))
             else:
                 Util.appendLineToFile("Loaded {} Targets ".format(len(self.targets)), self.outputFileName)
