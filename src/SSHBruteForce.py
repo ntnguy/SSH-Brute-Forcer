@@ -171,9 +171,9 @@ class SSHBruteForce():
                 Util.appendLineToFile("Brute Forcing {} ".format(self.targetIp, self.outputFileName))
             else:
                 Util.appendLineToFile("Loaded {} Targets ".format(len(self.targets)), self.outputFileName)
-            	Util.appendLineToFile("Loaded {} Usernames ".format(len(self.usernames)), self.outputFileName)
-            	Util.appendLineToFile("Loaded {} Passwords ".format(len(self.passwords)), self.outputFileName)
-            	Util.appendLineToFile("Brute Force Starting ", self.outputFileName)
+                Util.appendLineToFile("Loaded {} Usernames ".format(len(self.usernames)), self.outputFileName)
+                Util.appendLineToFile("Loaded {} Passwords ".format(len(self.passwords)), self.outputFileName)
+                Util.appendLineToFile("Brute Force Starting ", self.outputFileName)
 
     def dictionaryAttackSingle(self):
         for username in self.usernames:
